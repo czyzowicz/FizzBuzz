@@ -4,9 +4,8 @@ public class FizzBuzz
 {
 	public static void main (String [] args)
 	{
-		int [] array;
-		array = new int [101];
-	    for (int i = 1; i < array.length; i++) 
+		
+	    for (int i = 1; i < 101; i++) 
 		{
             if ( i % 15 == 0)
 			{
